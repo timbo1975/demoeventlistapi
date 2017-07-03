@@ -1,0 +1,12 @@
+{
+  "name": "Node.js Simple Event API",
+  "description": "A barebones Node.js app using Express 4 for an event api",
+  "repository": "https://github.com/timbo1975/demoeventlistapi",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "static"]
+},
+"addons": [
+    "mLab MongoDB :: Mongodb",
+    {
+      "plan": "mongolab"
+    }
