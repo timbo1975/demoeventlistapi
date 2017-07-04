@@ -6,7 +6,7 @@
   "keywords": ["node", "express", "static"]
 },
 "addons": [
-    "mLab MongoDB :: Mongodb",
+    "mLab MongoDb",
     {
-      "plan": "mongolab"
+      "plan": "mongolab:sandbox"
     }
