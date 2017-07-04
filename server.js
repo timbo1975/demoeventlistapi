@@ -6,7 +6,7 @@ var express = require('express'),
   bodyParser = require('body-parser');
   
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://tim:tim@ds145302.mlab.com:45302/heroku_79pz8wb8'); 
+mongoose.connect(process.env.MONGODB_URI); 
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
