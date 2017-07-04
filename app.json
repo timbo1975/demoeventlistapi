@@ -7,7 +7,7 @@
   "addons": [
     "mongolab",
     {
-      "plan": "mongolab:sandbox"
+      "plan": "sandbox"
     }
     ]
 }
