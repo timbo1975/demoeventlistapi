@@ -9,4 +9,5 @@
     {
       "plan": "mongolab:sandbox"
     }
-]
+    ]
+}
